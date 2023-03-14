@@ -57,13 +57,6 @@ public class TestIoTSystem {
 			e.printStackTrace();
 		}
 
-		// allow broker thread to finish processing
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-
 		// we check only termination here
 		assertTrue(true);
 
